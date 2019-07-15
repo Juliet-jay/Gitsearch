@@ -10,6 +10,7 @@ import { SearchFormComponent } from './components/search-form/search-form.compon
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { LandingComponent } from './components/display/landing.component';
 import { RepoHoverDirective } from './repo-hover.directive';
+import { FvrtTxtPipe } from './fvrt-txt.pipe';
 
 
 
@@ -21,7 +22,8 @@ import { RepoHoverDirective } from './repo-hover.directive';
     SearchFormComponent,
     NotFoundComponent,
     LandingComponent,
-    RepoHoverDirective
+    RepoHoverDirective,
+    FvrtTxtPipe
   ],
   imports: [
     BrowserModule,
