@@ -1,0 +1,122 @@
+/* You can add global styles to this file, and also import other style files */
+body,
+html {
+
+  color: #505962;
+  background: url(./assets/cc-wallpaper-desktop.png) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center left;
+
+}
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(194, 152, 37, 0.6) !important;
+
+
+}
+
+.navbar-brand i {
+  font-size: 2rem;
+  color: #1ebba3 !important;
+  transform: scale(1);
+  transition: .3s;
+
+}
+
+
+.navbar-brand i:hover {
+  color: rgb(28, 250, 228);
+  transform: scale(1.2);
+
+}
+
+.navbar-nav li {
+  padding-right: .7rem;
+
+}
+
+.navbar-dark .navbar-nav .navbar-link {
+  color: #fff !important;
+  padding-top: .8rem;
+
+}
+
+.navbar-dark .navbar-nav .navbar-link.active,
+.navbar-dark .navbar-nav .navbar-link:hover {
+  color: #1ebba3 !important;
+
+}
+
+
+
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  z-index: -1;
+}
+
+.home-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+
+.caption h3 {
+  font-size: 2rem;
+  color: #1ebba3;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+
+}
+
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+}
+
+@media(max-width:480px) {
+
+
+  .caption h1 {
+    font-size: 2.2rem;
+
+  }
+
+  .caption h3 {
+    font-size: 1.1rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.2rem;
+
+  }
+
+
+}

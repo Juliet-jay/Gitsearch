@@ -1,0 +1,42 @@
+.form-group.form-search .fa-search {
+  position: absolute;
+  top: 44px;
+  left: 8px;
+  font-size: 15px;
+  color: #dbd3d3;
+}
+
+
+.form-group.form-search input {
+  text-indent: 30px;
+}
+
+
+
+.form-group input[type=text] {
+  background: transparent;
+}
+
+.form-group label:hover {
+  color: #1ebba3;
+}
+
+input[type=text]:hover,
+input[type=text]:visited {
+  border: 2px solid #1ebba3;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  color: #1ebba3;
+}
+.form-group.form-search {
+  position: relative;
+}
+.form-card {
+  margin-top: 20vh;
+  background: rgba(204, 130, 130, 0.8);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+}
