@@ -3,7 +3,7 @@
   top: 44px;
   left: 8px;
   font-size: 15px;
-  color: #dbd3d3;
+  color: #523737;
 }
 
 
@@ -18,7 +18,7 @@
 }
 
 .form-group label:hover {
-  color: #1ebba3;
+  color: #0e1111;
 }
 
 input[type=text]:hover,
