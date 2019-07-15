@@ -35,9 +35,6 @@
     </div>
 
 
-
-
-
     <div class="col-md-7 col-sm-12">
       <div class="row">
         <div class="col-sm-12 mb-2 repo-cols " *ngFor="let repo of _userRepos">
@@ -45,7 +42,7 @@
             <i class="fa fa-github"></i>{{repo.name}}&nbsp;|
             <span>
               <a target="_blank" href="{{repo.html_url}}"><i class="fa fa-clone"></i>{{repo.full_name}}</a>
-            </span>&nbsp;&nbsp;
+            </span>&nbsp;
           </small>
           <h6>Last Update:{{repo.updated_at | date}}</h6>
           <p class="lead">{{repo.description}}</p>
