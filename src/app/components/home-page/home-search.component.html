@@ -2,14 +2,14 @@
   <app-search-form (onQueryString)="onQuerySearch($event)"></app-search-form>
 
   <div class="row">
-    <div class="col-md-5 col-sm-12 mb-3">
+    <div class="col-md-6 col-sm-12 mb-3">
 
       <div class="user-card" *ngIf="_user">
         <div class="card-deck">
           <div class="card">
             <div class="card-header d-flex align-items-center justify-content-between">
               <div class="titles d-flex flex-column">
-                <h3 class="card-title">{{_user.name}}</h3>>
+                <h2 class="card-title">{{_user.name}}</h2>
                 <small class="text-muted">{{_user.login}}</small>
               </div>
               <img class="card-img-top" [src]="_user?.avatar_url" alt="">
@@ -29,10 +29,10 @@
               <span class="badge badge-primary"> Following:{{_user?.following}}</span>
               <span class="badge badge-info"> Gists:{{_user?.public_gists}}</span>
             </div>
-          </div><!-- card body -->
-        </div> <!-- card deck -->
-      </div><!-- user-card -->
-    </div><!-- col-md-4 -->
+          </div>
+        </div> 
+      </div>
+    </div>
 
 
 
