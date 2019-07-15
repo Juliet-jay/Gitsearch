@@ -78,6 +78,7 @@ html {
   z-index: 1;
   color: white;
   text-transform: uppercase;
+  padding-top: 2%
 }
 
 .caption h1 {
