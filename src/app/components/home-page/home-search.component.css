@@ -2,12 +2,12 @@
 .card-footer,
 .card-body,
 .list-group {
-  background: rgb(0, 0, 0, .9) !important;
+  background: rgba(170, 123, 123, 0.9) !important;
   color: #fff;
 }
 
 .list-group-item {
-  background: rgb(0, 0, 0, .7);
+  background: rgba(218, 155, 155, 0.7);
   letter-spacing: .1rem;
 }
 
@@ -43,7 +43,7 @@ i.fa.fa-clone {
 }
 
 i.fa.fa-clone {
-  color: #fb3;
+  color: rgb(44, 42, 36);
 }
 
 .badge-info,
