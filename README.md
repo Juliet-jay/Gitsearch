@@ -1,13 +1,13 @@
 # GitSearch
 
-#### 12-7-2019
+#### 15-7-2019
 
-#### By Sunday Brian
+#### By juliet muthee
 
 ## Description
 
 An Application where you can search for a github user and get their details.
-![alt text](https://github.com/Sundaybrian/angular-gitHubSearch/blob/master/src/assets/gitSearchLanding.PNG "GitSearch Landing Image")
+![alt text](https://github.com/juliet-jay/angular-gitHubSearch/blob/master/src/assets/gitSearchLanding.PNG "GitSearch Landing Image")
 
 ## Installation
 
